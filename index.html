@@ -7,14 +7,20 @@
 <html>
 	<head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<title>Untitled</title>
+		<title>TANTRA FIESTA 2018</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="css/main.css" />
 		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
 	</head>
-	<body>
-
+	<body onload="myFunction()">
+		<!--Loader Class-->
+		<div class="loader" id="loader">
+		<div class="dot"></div>
+		<div class="dot"></div>
+		<div class="dot"></div>
+	</div>
+	<div style="display:none;" id="loader_div">
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
@@ -24,9 +30,9 @@
 						<!-- Panel (Banner) -->
 							<section class="panel banner right">
 								<div class="content color0 span-3-75">
-									<h1 class="major">TANTRA FIESTA<br />
+									<h1 class="major w3-animate-top">TANTRA FIESTA<br />
 									2018</h1>
-									<p>A Technical Fest Organized by IIIT Nagpur on # and # 2018</p>
+									<p class="w3-animate-left">A Technical Fest Organized by IIIT Nagpur on # and # 2018</p>
 									<ul class="actions">
 										<li><a href="#first" class="button special color1 circle icon fa fa-chevron-right">Next</a></li>
 									</ul>
@@ -82,19 +88,16 @@
 										<div class="span-2-75">
 
 											<h3 class="major">RuleBooks</h3>
-
-
-										<a href="">	<h3>Heading Level 3</h3></a>
-											<a href="">	<h3>Heading Level 3</h3> </a>
-												<a href=""><h3>Heading Level 3</h3></a>
-										<a href="">		<h3>Heading Level 3</h3></a>
-										<a href="">		<h3>Heading Level 3</h3></a>
-											<a href="">	<h3>Heading Level 3</h3></a>
-											<a href="">	<h3>Heading Level 3</h3></a>
-											<a href="">	<h3>Heading Level 3</h3></a>
-										<a href="">		<h3>Heading Level 3</h3></a>
-										<a href="">		<h3>Heading Level 3</h3></a>
-
+												<a href=""><h3 id="link_rulebooks">Heading Level 3</h3></a>
+												<a href=""><h3 id="link_rulebooks">Heading Level 3</h3></a>
+										<a href="">		<h3 id="link_rulebooks">Heading Level 3</h3></a>
+										<a href="">		<h3 id="link_rulebooks">Heading Level 3</h3></a>
+											<a href="">	<h3 id="link_rulebooks">Heading Level 3</h3></a>
+											<a href="">	<h3 id="link_rulebooks">Heading Level 3</h3></a>
+											<a href="">	<h3 id="link_rulebooks">Heading Level 3</h3></a>
+										<a href="">		<h3 id="link_rulebooks">Heading Level 3</h3></a>
+										<a href="">		<h3 id="link_rulebooks">Heading Level 3</h3></a>
+											<a href="">		<h3 id="link_rulebooks">Heading Level 3</h3></a>
 
 
 										</div>
@@ -398,11 +401,11 @@
 
 	<div class="copyright">&copy; Team Tantra Fiesta</div>
 			</div>
-
+		</div>
+		</div>
 		<!-- Scripts -->
 			<script src="jquery.min.js"></script>
 			<script src="skel.min.js"></script>
 			<script src="js/main.js"></script>
-
 	</body>
 </html>
