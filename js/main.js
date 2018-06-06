@@ -3,7 +3,18 @@
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
 */
+// Loader JS
+var myVar;
 
+function myFunction() {
+		myVar = setTimeout(showPage, 5000);
+}
+
+function showPage() {
+	document.getElementById('loader').style.display = "none";
+	document.getElementById("loader_div").style.display = "block";
+}
+// Settings Function
 (function($) {
 
 	// Settings.
