@@ -2363,8 +2363,8 @@ a{
 
 			.panel > *.color0 {
 			 /*TF WRITTEN PANE:*/
-			 background-repeat: no-repeat;
-				background-image: url("images/Unsplash.jpg");
+			  background-repeat: no-repeat;
+				background-image: url("../css/Unsplash.jpg"), linear-gradient(45deg, rgba(114, 97, 199, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 				background-size: 808px 808px, auto;
 			}
 
