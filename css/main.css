@@ -2364,7 +2364,7 @@ a{
 			.panel > *.color0 {
 			 /*TF WRITTEN PANE:*/
 			 background-repeat: no-repeat;
-				background-image: url("/Users/sauravgajbhiye/Desktop/TF/images/Unsplash.jpg");
+				background-image: url("images/Unsplash.jpg");
 				background-size: 808px 808px, auto;
 			}
 
