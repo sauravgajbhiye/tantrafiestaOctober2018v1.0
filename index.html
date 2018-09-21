@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Ethereal by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
--->
 <html>
 	<head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,10 +6,17 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="css/main.css" />
+		<link href="https://fonts.googleapis.com/css?family=Iceland" rel="stylesheet">
 		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
 	</head>
-	<body>
-
+	<body onload="myFunction()">
+		<!--Loader Class-->
+		<div class="loader" id="loader">
+		<div class="dot"></div>
+		<div class="dot"></div>
+		<div class="dot"></div>
+	</div>
+	<div style="display:none;" id="loader_div">
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
@@ -24,25 +26,26 @@
 						<!-- Panel (Banner) -->
 							<section class="panel banner right">
 								<div class="content color0 span-3-75">
-									<h1 class="major">TANTRA FIESTA<br />
+									<h1 class="major w3-animate-top" id="title_TF">TANTRA FIESTA<br />
 									2018</h1>
-									<p>Urna ut Aliquet, mus quis ante egestas eu at sit Natoque. Varius nulla aliquam, porta id augue ata massa, non blandit feugiat col erat morbi cep Euismod Sodales viverra. Curae fusce cubilia.</p>
+									<p class="w3-animate-left" id="A">A Technical Fest Organized by IIIT Nagpur on 28th and 29th October 2018</p>
 									<ul class="actions">
 										<li><a href="#first" class="button special color1 circle icon fa fa-chevron-right">Next</a></li>
 									</ul>
 								</div>
 								<div class="image filtered span-1-75" data-position="25% 25%">
-									<img src="images/pic01.jpg" alt="" />
+									<p id="logo_detail">TANRA FIESTA LOGO</p>
+									<img src="images/Unsplash.jpg" alt=""/>
 								</div>
 							</section>
 
 						<!-- Panel (Spotlight) -->
 							<section class="panel spotlight medium right" id="first">
 								<div class="content span-7">
-									<a href="##"><h2 class="major">Sed etiam aenean</h2></a>
-										<a href="##"><h2 class="major">Sed etiam aenean</h2></a>
-										<a href="##"><h2 class="major">Sed etiam aenean</h2></a>
-										<a href="##"><h2 class="major">Sed etiam aenean</h2></a>
+									<a href="##"><h2 class="major">Link #01</h2></a>
+										<a href="##"><h2 class="major">Link #02</h2></a>
+										<a href="##"><h2 class="major">Link #03</h2></a>
+										<a href="##"><h2 class="major">Link #04</h2></a>
 								</div>
 								<div class="image filtered tinted" data-position="top left">
 									<img src="images/pic02.jpg" alt="" />
@@ -52,17 +55,17 @@
 						<!-- Panel -->
 							<section class="panel color1">
 								<div class="intro joined">
-									<h2 class="major">Amet lorem</h2>
-									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+									<h2 class="major">ABOUT US</h2>
+									<p id="about_us">Come this Winter the gates of Central India's Largest Technical Festival are opened. The Technical Extravaganza, studded with electrifying and exhaling events and competitions.Tantra Fiesta is a Technical event completely organized and co-ordinated by willingness and true spirits of IIITians and their individual skill and strength are combined with teamwork, in order to produce meaningfull results for the Institute. </p>
 								</div>
 								<div class="inner">
 									<ul class="grid-icons three connected">
-										<li><span class="icon fa fa-diamond"><span class="label">Lorem</span></span></li>
-										<li><span class="icon fa fa-camera-retro"><span class="label">Ipsum</span></span></li>
-										<li><span class="icon fa fa-cog"><span class="label">Dolor</span></span></li>
-										<li><span class="icon fa fa-paper-plane"><span class="label">Sit</span></span></li>
-										<li><span class="icon fa fa-bar-chart"><span class="label">Amet</span></span></li>
-										<li><span class="icon fa fa-code"><span class="label">Nullam</span></span></li>
+										<li><span class="icon fa fa-diamond"><span class="label"></span></span></li>
+										<li><span class="icon fa fa-camera-retro"><span class="label"></span></span></li>
+										<li><span class="icon fa fa-cog"><span class="label"></span></span></li>
+										<li><span class="icon fa fa-paper-plane"><span class="label"></span></span></li>
+										<li><span class="icon fa fa-bar-chart"><span class="label"></span></span></li>
+										<li><span class="icon fa fa-code"><span class="label"></span></span></li>
 									</ul>
 								</div>
 							</section>
@@ -81,18 +84,15 @@
 										<div class="span-2-75">
 
 											<h3 class="major">RuleBooks</h3>
+												<a href=""><h3 id="link_rulebooks" download>Coding Event</h3></a>
+												<a href=""><h3 id="link_rulebooks" download>Paper Presentation</h3></a>
+										<a href="Rulebooks/contrivance.pdf" download>		<h3 id="link_rulebooks">Contrivance</h3></a>
+										<a href="Rulebooks/Maze Runner.pdf" download>		<h3 id="link_rulebooks">Maze Runner</h3></a>
+											<a href="Rulebooks/Matlab.pdf" download>	<h3 id="link_rulebooks">Matlab Event</h3></a>
+											<a href="Rulebooks/electroGiest.pdf" download>	<h3 id="link_rulebooks">Electro Giest</h3></a>
+											<a href="Rulebooks/Graphometry.pdf" download>	<h3 id="link_rulebooks">Graphometry</h3></a>
+										<a href="">		<h3 id="link_rulebooks" download>Technical Quiz</h3></a>
 
-
-										<a href="">	<h3>Heading Level 3</h3></a>
-											<a href="">	<h3>Heading Level 3</h3> </a>
-												<a href=""><h3>Heading Level 3</h3></a>
-										<a href="">		<h3>Heading Level 3</h3></a>
-										<a href="">		<h3>Heading Level 3</h3></a>
-											<a href="">	<h3>Heading Level 3</h3></a>
-											<a href="">	<h3>Heading Level 3</h3></a>
-											<a href="">	<h3>Heading Level 3</h3></a>
-										<a href="">		<h3>Heading Level 3</h3></a>
-										<a href="">		<h3>Heading Level 3</h3></a>
 
 
 
@@ -100,6 +100,40 @@
 
 						</div>
 						</section>
+
+
+<!--Second RuleBooks Section-->
+						<section class="panel color2-alt">
+
+							<div class="inner columns aligned">
+								<div class="span-2-75">
+
+									<h3 class="major">RuleBooks</h3>
+										<a href="Rulebooks/fifa2k18.pdf"><h3 id="link_rulebooks" download>Gaming Event - FIFA 2018</h3></a>
+										<a href="Rulebooks/pubg.pdf"><h3 id="link_rulebooks" download>Gaming Event - PUBG Mobile</h3></a>
+										<a href="Rulebooks/exhirulebook.pdf" download><h3 id="link_rulebooks">Science Exhibition</h3></a>
+								<a href="">		<h3 id="link_rulebooks" download>School Quiz</h3></a>
+									<a href="">	<h3 id="link_rulebooks" download>Traverse Action</h3></a>
+									<a href="Rulebooks/web_designing.pdf" download>	<h3 id="link_rulebooks">Web Designing</h3></a>
+									<a href="">	<h3 id="link_rulebooks" download>Workshops</h3></a>
+										<a href="">		<h3 id="link_rulebooks" download>Line of Control</h3></a>
+
+
+
+
+								</div>
+
+				</div>
+				</section>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -110,7 +144,7 @@
 							<section class="panel">
 								<div class="intro color4">
 									<h2 class="major">EVENTS <i class="fa fa-arrow-right" aria-hidden="true"></i></h2>
-									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+									<p id="events_sec">Following are the events which will held at Tantra Fiesta  2018<br /> Do Check them Out!!!</p>
 								</div>
 
 							</section>
@@ -127,13 +161,13 @@
 <a href="https://www.google.com">
 							<section class="panel spotlight large left">
 								<div class="content span-5">
-									<h2 class="major">Magna amet tempus</h2>
-									<p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.
+									<h2 class="major">Coding Events(Single or Pair)</h2>
+									<p>Event of Tantra Fiesta 2018.
 									<br />
 								</p>
 								</div>
 								<div class="image filtered tinted" data-position="top right">
-									<img src="images/CC1.jpg" alt="" />
+									<img src="images/BG_IMAGES/Coding.jpg" alt="" />
 								</div>
 							</section>
 						</a>
@@ -143,13 +177,13 @@
 						<a href="https://www.google.com">
 													<section class="panel spotlight large left">
 														<div class="content span-5">
-															<h2 class="major">Magna amet tempus</h2>
-															<p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.
+															<h2 class="major">Paper Presentation</h2>
+															<p>Event of Tantra Fiesta 2018.
 															<br />
 														</p>
 														</div>
 														<div class="image filtered tinted" data-position="top right">
-															<img src="images/pic03.jpg" alt="" />
+															<img src="images/CC.jpg" alt="" />
 														</div>
 													</section>
 												</a>
@@ -164,13 +198,13 @@
 												<a href="https://www.google.com">
 																			<section class="panel spotlight large left">
 																				<div class="content span-5">
-																					<h2 class="major">Magna amet tempus</h2>
-																					<p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.
+																					<h2 class="major">Contrivance</h2>
+																					<p>Event of Tantra Fiesta 2018.
 																					<br />
 																				</p>
 																				</div>
 																				<div class="image filtered tinted" data-position="top right">
-																					<img src="images/pic03.jpg" alt="" />
+																					<img src="images/Unsplash.jpg" alt="" />
 																				</div>
 																			</section>
 																		</a>
@@ -185,13 +219,13 @@
 																		<a href="https://www.google.com">
 																									<section class="panel spotlight large left">
 																										<div class="content span-5">
-																											<h2 class="major">Magna amet tempus</h2>
-																											<p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.
+																											<h2 class="major">Maze Runner</h2>
+																											<p>Event of Tantra Fiesta 2018.
 																											<br />
 																										</p>
 																										</div>
 																										<div class="image filtered tinted" data-position="top right">
-																											<img src="images/pic03.jpg" alt="" />
+																											<img src="images/BG_IMAGES/MazeRunner.jpg" alt="" />
 																										</div>
 																									</section>
 																								</a>
@@ -210,13 +244,13 @@
 																								<a href="https://www.google.com">
 																															<section class="panel spotlight large left">
 																																<div class="content span-5">
-																																	<h2 class="major">Magna amet tempus</h2>
-																																	<p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.
+																																	<h2 class="major">Matlab Event</h2>
+																																	<p>Event of Tantra Fiesta 2018.
 																																	<br />
 																																</p>
 																																</div>
 																																<div class="image filtered tinted" data-position="top right">
-																																	<img src="images/pic03.jpg" alt="" />
+																																	<img src="images/CC.jpg" alt="" />
 																																</div>
 																															</section>
 																														</a>
@@ -234,13 +268,13 @@
 																														<a href="https://www.google.com">
 																																					<section class="panel spotlight large left">
 																																						<div class="content span-5">
-																																							<h2 class="major">Magna amet tempus</h2>
-																																							<p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.
+																																							<h2 class="major">Electro Giest</h2>
+																																							<p>Event of Tantra Fiesta 2018.
 																																							<br />
 																																						</p>
 																																						</div>
 																																						<div class="image filtered tinted" data-position="top right">
-																																							<img src="images/pic03.jpg" alt="" />
+																																							<img src="images/CC.jpg" alt="" />
 																																						</div>
 																																					</section>
 																																				</a>
@@ -259,13 +293,12 @@
 																																				<a href="https://www.google.com">
 																																											<section class="panel spotlight large left">
 																																												<div class="content span-5">
-																																													<h2 class="major">Magna amet tempus</h2>
-																																													<p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.
-																																													<br />
+																																													<h2 class="major">Graphometry</h2>
+																																													<p>Event of Tantra Fiesta 2018.
 																																												</p>
 																																												</div>
 																																												<div class="image filtered tinted" data-position="top right">
-																																													<img src="images/pic03.jpg" alt="" />
+																																													<img src="images/BG_IMAGES/graphometry.jpg" alt="" />
 																																												</div>
 																																											</section>
 																																										</a>
@@ -283,13 +316,13 @@
 																																										<a href="https://www.google.com">
 																																																	<section class="panel spotlight large left">
 																																																		<div class="content span-5">
-																																																			<h2 class="major">Magna amet tempus</h2>
-																																																			<p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.
+																																																			<h2 class="major">Technical Quiz</h2>
+																																																			<p>Event of Tantra Fiesta 2018.
 																																																			<br />
 																																																		</p>
 																																																		</div>
 																																																		<div class="image filtered tinted" data-position="top right">
-																																																			<img src="images/pic03.jpg" alt="" />
+																																																			<img src="images/CC.jpg" alt="" />
 																																																		</div>
 																																																	</section>
 																																																</a>
@@ -304,13 +337,12 @@
 																																																<a href="https://www.google.com">
 																																																							<section class="panel spotlight large left">
 																																																								<div class="content span-5">
-																																																									<h2 class="major">Magna amet tempus</h2>
-																																																									<p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.
-																																																									<br />
+																																																									<h2 class="major">Gaming Events - (FIFA 2018 and PUBG Mobile)</h2>
+																																																									<p>Event of Tantra Fiesta 2018.
 																																																								</p>
 																																																								</div>
 																																																								<div class="image filtered tinted" data-position="top right">
-																																																									<img src="images/pic03.jpg" alt="" />
+																																																									<img src="images/BG_IMAGES/fifa.jpg" alt="" />
 																																																								</div>
 																																																							</section>
 																																																						</a>
@@ -325,16 +357,101 @@
 																																																						<a href="https://www.google.com">
 																																																													<section class="panel spotlight large left">
 																																																														<div class="content span-5">
-																																																															<h2 class="major">Magna amet tempus</h2>
-																																																															<p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.
+																																																															<h2 class="major">Science Exhibition</h2>
+																																																															<p>Event of Tantra Fiesta 2018.
 																																																															<br />
 																																																														</p>
 																																																														</div>
 																																																														<div class="image filtered tinted" data-position="top right">
-																																																															<img src="images/pic03.jpg" alt="" />
+																																																															<img src="images/CC.jpg" alt="" />
 																																																														</div>
 																																																													</section>
 																																																												</a>
+
+
+
+
+																																																												<a href="https://www.google.com">
+																																																																			<section class="panel spotlight large left">
+																																																																				<div class="content span-5">
+																																																																					<h2 class="major">School Quiz</h2>
+																																																																					<p>Event of Tantra Fiesta 2018.
+																																																																					<br />
+																																																																				</p>
+																																																																				</div>
+																																																																				<div class="image filtered tinted" data-position="top right">
+																																																																					<img src="images/CC.jpg" alt="" />
+																																																																				</div>
+																																																																			</section>
+																																																																		</a>
+
+
+
+
+
+																																																																		<a href="https://www.google.com">
+																																																																									<section class="panel spotlight large left">
+																																																																										<div class="content span-5">
+																																																																											<h2 class="major">Traverse Action</h2>
+																																																																											<p>Event of Tantra Fiesta 2018.
+																																																																										</p>
+																																																																										</div>
+																																																																										<div class="image filtered tinted" data-position="top right">
+																																																																											<img src="images/CC.jpg" alt="" />
+																																																																										</div>
+																																																																									</section>
+																																																																								</a>
+
+
+
+																																																																								<a href="https://www.google.com">
+																																																																															<section class="panel spotlight large left">
+																																																																																<div class="content span-5">
+																																																																																	<h2 class="major">Web Designing</h2>
+																																																																																	<p>Event of Tantra Fiesta 2018.
+																																																																																	<br />
+																																																																																</p>
+																																																																																</div>
+																																																																																<div class="image filtered tinted" data-position="top right">
+																																																																																	<img src="images/CC.jpg" alt="" />
+																																																																																</div>
+																																																																															</section>
+																																																																														</a>
+
+
+
+																																																																														<a href="https://www.google.com">
+																																																																																					<section class="panel spotlight large left">
+																																																																																						<div class="content span-5">
+																																																																																							<h2 class="major">Workshops</h2>
+																																																																																							<p>Event of Tantra Fiesta 2018.
+																																																																																							<br />
+																																																																																						</p>
+																																																																																						</div>
+																																																																																						<div class="image filtered tinted" data-position="top right">
+																																																																																							<img src="images/CC.jpg" alt="" />
+																																																																																						</div>
+																																																																																					</section>
+																																																																																				</a>
+
+
+
+																																																																																				<a href="https://www.google.com">
+																																																																																											<section class="panel spotlight large left">
+																																																																																												<div class="content span-5">
+																																																																																													<h2 class="major">Line of Control</h2>
+																																																																																													<p>Event of Tantra Fiesta 2018.
+																																																																																													<br />
+																																																																																												</p>
+																																																																																												</div>
+																																																																																												<div class="image filtered tinted" data-position="top right">
+																																																																																													<img src="images/CC.jpg" alt="" />
+																																																																																												</div>
+																																																																																											</section>
+																																																																																										</a>
+
+
+
 
 
 
@@ -360,7 +477,7 @@
 							<section class="panel color4-alt">
 								<div class="intro color4">
 									<h2 class="major">Contact</h2>
-									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+									<p id="conatact_p">Having any Diffuculties <br />Feel Free to Contact Us.</p>
 								</div>
 								<div class="inner columns divided">
 									<div class="span-3-25">
@@ -384,24 +501,24 @@
 									</div>
 									<div class="span-1-5">
 										<ul class="contact-icons color1">
-											<li class="icon fa-twitter"><a href="index.html#">@untitled-tld</a></li>
-											<li class="icon fa-facebook"><a href="index.html#">facebook.com/untitled</a></li>
-											<li class="icon fa-snapchat-ghost"><a href="index.html#">@untitled-tld</a></li>
-											<li class="icon fa-instagram"><a href="index.html#">@untitled-tld</a></li>
-											<li class="icon fa-medium"><a href="index.html#">medium.com/untitled</a></li>
+											<li class="icon fa-twitter"><a href="index.html#">Twitter/Tantra Fiesta</a></li>
+											<li class="icon fa-facebook"><a href="index.html#">Facebook/Tantra Fiesta</a></li>
+											<li class="icon fa-snapchat-ghost"><a href="index.html#">Snapchat/Tantra Fiesta</a></li>
+											<li class="icon fa-instagram"><a href="index.html#">Instragram/Tantra Fiesta</a></li>
+
 										</ul>
 									</div>
 								</div>
 							</section>
 
 
-	<div class="copyright">&copy; Untitled.</div>
+	<div class="copyright">&copy; Team Tantra Fiesta</div>
 			</div>
-
+		</div>
+		</div>
 		<!-- Scripts -->
 			<script src="jquery.min.js"></script>
 			<script src="skel.min.js"></script>
 			<script src="js/main.js"></script>
-
 	</body>
 </html>
