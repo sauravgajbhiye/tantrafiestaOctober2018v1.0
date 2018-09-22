@@ -6,6 +6,13 @@
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
 */
+#copyright_id{
+	font-weight: bold;
+	font-size: 5px;
+}
+#rulebooks_top, #AA{
+	line-height: 0.1px;
+}
 #A{
 	font-weight: bold;
 	font-size: 20px;
@@ -404,7 +411,7 @@ a{
 			z-index: -1;
 			background-attachment: fixed;
 			/*MAIN BACKGROUND*/
-		/*background-image: url("/Users/sauravgajbhiye/Desktop/TF/css/main_bg.jpg");*/
+		background-image: url("css/Unsplash.jpg");*/
 			background-repeat: no-repeat;
 
 		}
