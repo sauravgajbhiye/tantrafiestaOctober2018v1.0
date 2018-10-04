@@ -2,8 +2,12 @@
 @import url("../../../../../../../fonts.googleapis.com/css%3Ffamily=Source+Sans+Pro:300,400,300i,400i.css");
 /*Made By: Saurav Gajbhiye*/
 /*IIIT Nagpur*/
+#conatact_det{
+  font-weight: bold;
+  font-size: 17px;
+}
 .topleft {
-    position: absolute;
+    position: fixed;
     top: 9px;
     left: 16px;
     font-size: 18px;
@@ -64,7 +68,7 @@
 }
 #desc{
 	font-weight: bold;
-	font-size: 17px;
+	font-size: 19px;
 }
 #copyright_id{
 	font-weight: bold;
@@ -3794,6 +3798,7 @@ a{
 		#page-wrapper {
 			height: auto;
 			padding: 1rem;
+			padding-top: 7rem;
 		}
 
 	}
@@ -3802,6 +3807,7 @@ a{
 
 		#page-wrapper {
 			padding: 0;
+			padding-top: 7rem;
 		}
 
 	}
