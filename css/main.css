@@ -2,6 +2,11 @@
 @import url("../../../../../../../fonts.googleapis.com/css%3Ffamily=Source+Sans+Pro:300,400,300i,400i.css");
 /*Made By: Saurav Gajbhiye*/
 /*IIIT Nagpur*/
+#note_red{
+	font-weight: bold;
+	font-size: 21px;
+	color: Red;
+}
 #conatact_det{
   font-weight: bold;
   font-size: 17px;
@@ -16,7 +21,7 @@
 	text-decoration: none;
 	line-height: 6px;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 16px;
 }
 #A:hover{
 		color:#473D72;
