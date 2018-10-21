@@ -2,6 +2,31 @@
 @import url("../../../../../../../fonts.googleapis.com/css%3Ffamily=Source+Sans+Pro:300,400,300i,400i.css");
 /*Made By: Saurav Gajbhiye*/
 /*IIIT Nagpur*/
+
+#demo{
+	color: White;
+	text-align: center;
+	position: relative;
+	font-size: 6rem;
+	font-weight: bold;
+	font-family: 'Covered By Your Grace', cursive;
+}
+
+
+@media screen and (max-width: 736px) {
+	#demo
+	{
+		color: White;
+		text-align: center;
+		position: relative;
+		font-size: 3rem;
+		font-weight: bold;
+		font-family: 'Covered By Your Grace', cursive;
+  }
+}
+
+
+
 #note_red{
 	font-weight: bold;
 	font-size: 21px;
