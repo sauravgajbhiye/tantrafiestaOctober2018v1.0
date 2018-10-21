@@ -3,13 +3,16 @@
 /*Made By: Saurav Gajbhiye*/
 /*IIIT Nagpur*/
 
+
+
+
 #demo{
 	color: White;
 	text-align: center;
 	position: relative;
 	font-size: 6rem;
 	font-weight: bold;
-	font-family: 'Covered By Your Grace', cursive;
+	font-family:  cursive;
 }
 
 
@@ -24,8 +27,6 @@
 		font-family: 'Covered By Your Grace', cursive;
   }
 }
-
-
 
 #note_red{
 	font-weight: bold;
