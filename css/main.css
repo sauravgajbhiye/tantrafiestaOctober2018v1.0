@@ -2,7 +2,10 @@
 @import url("../../../../../../../fonts.googleapis.com/css%3Ffamily=Source+Sans+Pro:300,400,300i,400i.css");
 /*Made By: Saurav Gajbhiye*/
 /*IIIT Nagpur*/
-
+/*.responsive_img {
+    width: 100%;
+    height: auto;
+}*/
 #demo{
 	color: White;
 	text-align: center;
