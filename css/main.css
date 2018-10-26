@@ -6,6 +6,35 @@
     width: 100%;
     height: auto;
 }*/
+
+
+
+
+#contactTable h1{
+	color: #ff6600;
+}
+#contactTable td{
+	/*color : #ccff99;*/
+	/*color : #804000;*/
+	color : black;
+	font-size: 1rem;
+	font-family: cursive;
+	/*background-color: white;*/
+
+}
+
+#contactTable th{
+	color : white;
+	font-family: cursive;
+	font-style: bold;
+	background-color: #8c1aff;
+}
+
+#contactTable table{
+	border : 2px ridge #ffbf80;
+}
+
+
 #demo{
 	color: White;
 	text-align: center;
@@ -2493,7 +2522,21 @@ a{
 				background-image: url("First_BG.jpg"), linear-gradient(45deg, rgba(114, 97, 199, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 				background-size: cover;
 			}
+			
+			/*contactTable*/
 
+				.panel  > *.color5{
+					background-repeat: no-repeat;
+				/*background-image: url("First_BG.jpg"), linear-gradient(45deg, rgba(114, 97, 199, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+				*/
+				background-color: #fffae6;
+
+				background-size: cover;
+				}	
+
+			/*contacTable*/
+
+			
 			.panel > *.color1 {
 			/*	background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));*/
 				background-size: 128px 128px, auto;
