@@ -9,6 +9,78 @@
 
 
 
+/*Speakers*/
+.s_pic{
+	
+	height : 40%;
+	border-radius: 50%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	margin-left: 7.5%;
+	margin-right : 7.5%;
+	box-shadow: 10px;
+}
+.s_desc{
+	height: 50%;
+	text-align: left;
+	padding-left: 5%;
+	font-family: cursive;
+	color : white;
+}
+.s_desc h4{
+	font-family: cursive;
+	font-size: 120%;
+	color: #ffff33;
+}
+
+#speaker1{
+	width : 25%;
+	display : inline-block;
+	float : left;
+	padding: 1%;
+}
+#speaker1 .s_pic{
+	background: url('speaker1.jpg');
+	background-size: cover;
+}
+
+#speaker2{
+	width : 25%;
+	display : inline-block;
+	float : left;
+	padding: 1%;
+}
+#speaker2 .s_pic{
+	background: url('speaker2.jpg');
+	background-size: cover;
+}
+
+
+#speaker3{
+	width : 25%;
+	display : inline-block;
+	float : left;
+	padding: 1%;
+}
+#speaker3 .s_pic{
+	background: url('speaker3.jpg');
+	background-size: cover;
+}
+
+
+#speaker4{
+	width : 25%;
+	display : inline-block;
+	float : left;
+	padding: 1%;
+}
+#speaker4 .s_pic{
+	background: white url('speaker4.png');
+	background-size: cover;
+}
+/*Speakers*/
+
+
 
 #contactTable h1{
 	color: #ff6600;
